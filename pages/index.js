@@ -329,7 +329,7 @@ const HomePage = () => {
           />
           <meta
             name='google-site-verification'
-            content='BZNZaUyoS1nXyRfa99f4VJ3ABKZUZhkKB0pZ3DU3L8s'
+            content='Ykqd8f8Aju4y3eu9wpMK_A9a1D0jfWEXustp2_QbYRM'
           />
           <meta
             name='facebook-domain-verification'
@@ -360,7 +360,7 @@ const HomePage = () => {
               fjs.parentNode.appendChild(js);
             }(window, document, 'script', 'webpushr-jssdk'));
 
-            webpushr('setup', { 'key': 'BDeuTTHBlf3TwViBs2cBn2PfLilOFFEjIt_dkh7csfiAUZQDiVh__Idu3BpAEYqNsZ2wmUUQJ1r1_Dtd3TvS_Dk' });
+            webpushr('setup', { 'key': 'kRHvMUY6841jtwQvaXrsL6ZyfYBKr0_LSttEeqZvNAeAuQsxxXT7BChJEeoagl4NqTWsDigrAwaVjNYyc' });
           `
             }}
           />
@@ -439,7 +439,7 @@ const HomePage = () => {
                   href='../latest/'
                   className='text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl'
                 >
-                  Post<span className='p'></span>
+                  Latest News<span className='p'></span>
                 </a>
               </li>
             </button>
