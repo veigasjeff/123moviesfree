@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://onetwothreemoviesfree.onrender.com/sitemap.xml
