@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://onetwothreemoviesfree.onrender.com/
+
+# Sitemaps
+Sitemap: https://onetwothreemoviesfree.onrender.com/sitemap.xml
