@@ -26,13 +26,13 @@ const latestDetail = ({ latest }) => {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: '123 Movies Free™ - Explore. Discover. Watch.',
-      url: 'http://localhost:3000/',
+      url: 'https://onetwothreemoviesfree.onrender.com/',
       image: [
-        'http://localhost:3000/wp-content/uploads/2023/05/favicon.ico'
+        'https://onetwothreemoviesfree.onrender.com/wp-content/uploads/2023/05/favicon.ico'
       ],
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/logo.png',
+        url: 'https://onetwothreemoviesfree.onrender.com/logo.png',
         width: 280,
         height: 80
       }
@@ -40,13 +40,13 @@ const latestDetail = ({ latest }) => {
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      url: 'http://localhost:3000/',
+      url: 'https://onetwothreemoviesfree.onrender.com/',
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
           urlTemplate:
-            'http://localhost:3000/search?q={search_term_string}'
+            'https://onetwothreemoviesfree.onrender.com/search?q={search_term_string}'
         },
         'query-input': 'required name=search_term_string'
       }
@@ -63,8 +63,8 @@ const latestDetail = ({ latest }) => {
       },
       {
         '@type': 'WebSite',
-        '@id': 'http://localhost:3000/#website',
-        url: 'http://localhost:3000/',
+        '@id': 'https://onetwothreemoviesfree.onrender.com/#website',
+        url: 'https://onetwothreemoviesfree.onrender.com/',
         name: '123 Movies Free',
         publisher: {
           '@id': 'https://gravatar.com/drtrailer2022/#person'
@@ -79,15 +79,15 @@ const latestDetail = ({ latest }) => {
         datePublished: '2024-01-13T13:00:00+00:00',
         dateModified: '2024-01-13T13:13:00+00:00',
         isPartOf: {
-          '@id': 'http://localhost:3000/#website'
+          '@id': 'https://onetwothreemoviesfree.onrender.com/#website'
         },
         inLanguage: 'en-US'
       },
       {
         '@type': 'Person',
-        '@id': 'http://localhost:3000/author/latest/',
+        '@id': 'https://onetwothreemoviesfree.onrender.com/author/latest/',
         name: 'Dr Trailer',
-        url: 'http://localhost:3000/author/latest/',
+        url: 'https://onetwothreemoviesfree.onrender.com/author/latest/',
         image: {
           '@type': 'ImageObject',
           '@id': 'https://gravatar.com/drtrailer2022',
@@ -95,7 +95,7 @@ const latestDetail = ({ latest }) => {
           caption: 'Dr Trailer',
           inLanguage: 'en-US'
         },
-        sameAs: ['http://localhost:3000/']
+        sameAs: ['https://onetwothreemoviesfree.onrender.com/']
       },
       {
         '@type': 'Article',
@@ -105,7 +105,7 @@ const latestDetail = ({ latest }) => {
         dateModified: '2024-01-13T13:13:00+00:00',
         articleSection: 'latest',
         author: {
-          '@id': 'http://localhost:3000/author/latest/'
+          '@id': 'https://onetwothreemoviesfree.onrender.com/author/latest/'
         },
         publisher: {
           '@id': 'https://gravatar.com/drtrailer2022/#person'
@@ -129,7 +129,7 @@ const latestDetail = ({ latest }) => {
         dateModified: '2024-01-13T13:13:00+00:00',
         articleSection: 'latest',
         author: {
-          '@id': 'http://localhost:3000/author/latest/'
+          '@id': 'https://onetwothreemoviesfree.onrender.com/author/latest/'
         },
         publisher: {
           '@id': 'https://gravatar.com/drtrailer2022/#person'
@@ -180,7 +180,7 @@ const latestDetail = ({ latest }) => {
       name: '123 Movies Free',
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/og_image.jpg'
+        url: 'https://onetwothreemoviesfree.onrender.com/og_image.jpg'
       }
     },
     additionalProperty: {

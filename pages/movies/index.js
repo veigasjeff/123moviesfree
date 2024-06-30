@@ -14,11 +14,11 @@ const uwatchfreeSchema = JSON.stringify([
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: '123 Movies Free. - Explore. Discover. Watch.',
-    url: 'http://localhost:3000/',
-    image: ['http://localhost:3000/favicon.ico'],
+    url: 'https://onetwothreemoviesfree.onrender.com/',
+    image: ['https://onetwothreemoviesfree.onrender.com/favicon.ico'],
     logo: {
       '@type': 'ImageObject',
-      url: 'http://localhost:3000/logo.png',
+      url: 'https://onetwothreemoviesfree.onrender.com/logo.png',
       width: 280,
       height: 80
     }
@@ -26,13 +26,13 @@ const uwatchfreeSchema = JSON.stringify([
   {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    url: 'http://localhost:3000/',
+    url: 'https://onetwothreemoviesfree.onrender.com/',
     potentialAction: {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
         urlTemplate:
-          'http://localhost:3000/search?q={search_term_string}'
+          'https://onetwothreemoviesfree.onrender.com/search?q={search_term_string}'
       },
       'query-input': 'required name=search_term_string'
     }
@@ -42,12 +42,12 @@ const uwatchfreeSchema = JSON.stringify([
 const softwareSchema = JSON.stringify({
   '@context': 'https://schema.org',
   '@type': 'Article',
-  '@id': 'http://localhost:3000/movies/',
+  '@id': 'https://onetwothreemoviesfree.onrender.com/movies/',
   headline: 'Movies Review Website | 123 Movies Free.™',
-  url: 'http://localhost:3000/movies/',
+  url: 'https://onetwothreemoviesfree.onrender.com/movies/',
   description:
     'Explore the world of cinema with 123 Movies Free: Captivating movies, top picks, and the latest news.',
-  image: 'http://localhost:3000/wp-content/uploads/movies.webp',
+  image: 'https://onetwothreemoviesfree.onrender.com/wp-content/uploads/movies.webp',
   author: {
     '@type': 'Person',
     name: 'DrTrailer',
@@ -58,14 +58,14 @@ const softwareSchema = JSON.stringify({
     name: '123 Movies Free. - Explore. Discover. Watch.',
     logo: {
       '@type': 'ImageObject',
-      url: 'http://localhost:3000/og_image.jpg'
+      url: 'https://onetwothreemoviesfree.onrender.com/og_image.jpg'
     }
   },
   datePublished: '2024-06-02',
   dateModified: '2024-06-02',
   mainEntityOfPage: {
     '@type': 'WebPage',
-    '@id': 'http://localhost:3000/movies/'
+    '@id': 'https://onetwothreemoviesfree.onrender.com/movies/'
   },
   additionalProperty: {
     '@type': 'PropertyValue',
@@ -82,13 +82,13 @@ const breadcrumbSchema = JSON.stringify({
       '@type': 'ListItem',
       position: 1,
       name: '123 Movies Free.',
-      item: 'http://localhost:3000/'
+      item: 'https://onetwothreemoviesfree.onrender.com/'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Movies.',
-      item: 'http://localhost:3000/movies/'
+      item: 'https://onetwothreemoviesfree.onrender.com/movies/'
     }
   ]
 })
@@ -109,7 +109,7 @@ const moviesPage = ({ items }) => {
         <title> Movies Review Website | 123 Movies Free.</title>
         <link
           rel='canonical'
-          href='http://localhost:3000/movies/'
+          href='https://onetwothreemoviesfree.onrender.com/movies/'
         />
         <meta
           name='robots'
@@ -131,14 +131,14 @@ const moviesPage = ({ items }) => {
 
         <meta
           property='og:url'
-          content='http://localhost:3000/movies'
+          content='https://onetwothreemoviesfree.onrender.com/movies'
         />
 
         <meta property='og:site_name' content='123 Movies Free.' />
         <meta property='og:type' content='article' />
         <meta
           property=' og:image:alt'
-          content='http://localhost:3000/wp-content/uploads/og_image.jpg'
+          content='https://onetwothreemoviesfree.onrender.com/wp-content/uploads/og_image.jpg'
         />
         <meta name='mobile-web-app-capable' content='yes' />
         <meta property='article:section' content='Movies' />
@@ -153,7 +153,7 @@ const moviesPage = ({ items }) => {
         />
         <meta
           property='og:image'
-          content='http://localhost:3000/wp-content/uploads/og_image.jpg'
+          content='https://onetwothreemoviesfree.onrender.com/wp-content/uploads/og_image.jpg'
         />
         <meta property='og:image:width' content='1280px' />
         <meta property='og:image:height' content='720px' />
@@ -549,7 +549,7 @@ const moviesPage = ({ items }) => {
 
 export async function getStaticProps () {
   try {
-    const res = await fetch('http://localhost:3000/movies.json')
+    const res = await fetch('https://onetwothreemoviesfree.onrender.com/movies.json')
     const data = await res.json()
 
     return {

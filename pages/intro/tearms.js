@@ -37,9 +37,9 @@ const Tearms = () => {
     '@graph': [
       {
         '@type': 'Person',
-        '@id': 'http://localhost:3000/author/ytmag/',
+        '@id': 'https://onetwothreemoviesfree.onrender.com/author/ytmag/',
         name: 'Dr Trailer',
-        url: 'http://localhost:3000/author/ytmag/',
+        url: 'https://onetwothreemoviesfree.onrender.com/author/ytmag/',
         image: {
           '@type': 'ImageObject',
           '@id': 'https://gravatar.com/drtrailer2022',
@@ -50,37 +50,37 @@ const Tearms = () => {
       },
       {
         '@type': 'Organization',
-        '@id': 'http://localhost:3000/#organization',
+        '@id': 'https://onetwothreemoviesfree.onrender.com/#organization',
         name: '123 Movies Free - Explore. Discover. Connect..',
-        url: 'http://localhost:3000'
+        url: 'https://onetwothreemoviesfree.onrender.com'
       },
       {
         '@type': 'WebSite',
-        '@id': 'http://localhost:3000/#website',
-        url: 'http://localhost:3000',
+        '@id': 'https://onetwothreemoviesfree.onrender.com/#website',
+        url: 'https://onetwothreemoviesfree.onrender.com',
         name: '123 Movies Free - Explore. Discover. Connect..',
         publisher: {
           '@type': 'Organization',
-          '@id': 'http://localhost:3000/#organization'
+          '@id': 'https://onetwothreemoviesfree.onrender.com/#organization'
         },
         potentialAction: {
           '@type': 'SearchAction',
-          target: 'http://localhost:3000/?s={search_term_string}',
+          target: 'https://onetwothreemoviesfree.onrender.com/?s={search_term_string}',
           'query-input': 'required name=search_term_string'
         }
       },
       {
         '@type': 'WebPage',
-        '@id': 'http://localhost:3000/#webpage',
-        url: 'http://localhost:3000/',
+        '@id': 'https://onetwothreemoviesfree.onrender.com/#webpage',
+        url: 'https://onetwothreemoviesfree.onrender.com/',
         name: 'Movie',
         datePublished: '2024-01-13T13:00:00+00:00',
         dateModified: '2024-01-13T13:13:00+00:00',
         about: {
           '@type': 'Person',
-          '@id': 'http://localhost:3000/author/ytmag/',
+          '@id': 'https://onetwothreemoviesfree.onrender.com/author/ytmag/',
           name: 'Dr Trailer',
-          url: 'http://localhost:3000/author/ytmag/',
+          url: 'https://onetwothreemoviesfree.onrender.com/author/ytmag/',
           image: {
             '@type': 'ImageObject',
             '@id': 'https://gravatar.com/drtrailer2022',
@@ -90,22 +90,22 @@ const Tearms = () => {
           }
         },
         isPartOf: {
-          '@id': 'http://localhost:3000/#website'
+          '@id': 'https://onetwothreemoviesfree.onrender.com/#website'
         },
         inLanguage: 'en-US',
         mainEntity: [
           {
             '@type': 'Article',
-            '@id': 'http://localhost:3000/',
-            url: 'http://localhost:3000/',
+            '@id': 'https://onetwothreemoviesfree.onrender.com/',
+            url: 'https://onetwothreemoviesfree.onrender.com/',
             headline: 'Movie',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
             author: {
               '@type': 'Person',
-              '@id': 'http://localhost:3000/author/ytmag/',
+              '@id': 'https://onetwothreemoviesfree.onrender.com/author/ytmag/',
               name: 'Dr Trailer',
-              url: 'http://localhost:3000/author/ytmag/',
+              url: 'https://onetwothreemoviesfree.onrender.com/author/ytmag/',
               image: {
                 '@type': 'ImageObject',
                 '@id': 'https://gravatar.com/drtrailer2022',
@@ -116,23 +116,23 @@ const Tearms = () => {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'http://localhost:3000/#organization',
+              '@id': 'https://onetwothreemoviesfree.onrender.com/#organization',
               name: '123 Movies Free - Explore. Discover. Connect..',
-              url: 'http://localhost:3000'
+              url: 'https://onetwothreemoviesfree.onrender.com'
             }
           },
           {
             '@type': 'Article',
-            '@id': 'http://localhost:3000/',
-            url: 'http://localhost:3000/',
+            '@id': 'https://onetwothreemoviesfree.onrender.com/',
+            url: 'https://onetwothreemoviesfree.onrender.com/',
             headline: 'Tvshow',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
             author: {
               '@type': 'Person',
-              '@id': 'http://localhost:3000/author/ytmag/',
+              '@id': 'https://onetwothreemoviesfree.onrender.com/author/ytmag/',
               name: 'Dr Trailer',
-              url: 'http://localhost:3000/author/ytmag/',
+              url: 'https://onetwothreemoviesfree.onrender.com/author/ytmag/',
               image: {
                 '@type': 'ImageObject',
                 '@id': 'https://gravatar.com/drtrailer2022',
@@ -143,23 +143,23 @@ const Tearms = () => {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'http://localhost:3000/#organization',
+              '@id': 'https://onetwothreemoviesfree.onrender.com/#organization',
               name: '123 Movies Free - Explore. Discover. Connect..',
-              url: 'http://localhost:3000'
+              url: 'https://onetwothreemoviesfree.onrender.com'
             }
           },
           {
             '@type': 'Article',
-            '@id': 'http://localhost:3000/',
-            url: 'http://localhost:3000/',
+            '@id': 'https://onetwothreemoviesfree.onrender.com/',
+            url: 'https://onetwothreemoviesfree.onrender.com/',
             headline: 'Adult',
             datePublished: '2024-01-13T13:00:00+00:00',
             dateModified: '2024-01-13T13:13:00+00:00',
             author: {
               '@type': 'Person',
-              '@id': 'http://localhost:3000/author/ytmag/',
+              '@id': 'https://onetwothreemoviesfree.onrender.com/author/ytmag/',
               name: 'Dr Trailer',
-              url: 'http://localhost:3000/author/ytmag/',
+              url: 'https://onetwothreemoviesfree.onrender.com/author/ytmag/',
               image: {
                 '@type': 'ImageObject',
                 '@id': 'https://gravatar.com/drtrailer2022',
@@ -170,9 +170,9 @@ const Tearms = () => {
             },
             publisher: {
               '@type': 'Organization',
-              '@id': 'http://localhost:3000/#organization',
+              '@id': 'https://onetwothreemoviesfree.onrender.com/#organization',
               name: '123 Movies Free - Explore. Discover. Connect..',
-              url: 'http://localhost:3000'
+              url: 'https://onetwothreemoviesfree.onrender.com'
             }
           }
         ]
@@ -190,7 +190,7 @@ const Tearms = () => {
             rel='sitemap'
             type='application/xml'
             title='Sitemap'
-            href='http://localhost:3000/sitemap.xml'
+            href='https://onetwothreemoviesfree.onrender.com/sitemap.xml'
           />
           <meta
             name='viewport'
@@ -233,7 +233,7 @@ const Tearms = () => {
             name='description'
             content='Explore the world of cinema with 123 Movies Free: Captivating reviews, top picks, and the latest news.'
           />
-          <link rel='canonical' href='http://localhost:3000/intro/tearms' />
+          <link rel='canonical' href='https://onetwothreemoviesfree.onrender.com/intro/tearms' />
           <meta property='og:locale' content='en_US' />
           <meta property='og:type' content='website' />
           <meta
@@ -244,14 +244,14 @@ const Tearms = () => {
             property='og:description'
             content='123 Movies Free is the top platform for exploring and ing software,the premier platform for the latest releases and secure s.'
           />
-          <meta property='og:url' content='http://localhost:3000/intro/tearms/' />
+          <meta property='og:url' content='https://onetwothreemoviesfree.onrender.com/intro/tearms/' />
           <meta
             property='og:site_name'
             content='123 Movies Free '
           />
           <meta
             property='og:image'
-            content='http://localhost:3000/og_image.webp'
+            content='https://onetwothreemoviesfree.onrender.com/og_image.webp'
           />
           <meta property='og:image:width' content='1280' />
           <meta property='og:image:height' content='720' />
@@ -268,7 +268,7 @@ const Tearms = () => {
             rel='sitemap'
             type='application/xml'
             title='Sitemap'
-            href='http://localhost:3000/sitemap.xml'
+            href='https://onetwothreemoviesfree.onrender.com/sitemap.xml'
           />
           <meta name='twitter:card' content='summary_large_image' />
           <meta

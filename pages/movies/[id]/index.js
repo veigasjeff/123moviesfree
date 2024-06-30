@@ -82,11 +82,11 @@ const moviesDetail = ({ moviesItem }) => {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: '123 Movies Free.',
-      url: 'http://localhost:3000/',
-      image: ['http://localhost:3000/wp-content/uploads/2023/05/favicon.ico'],
+      url: 'https://onetwothreemoviesfree.onrender.com/',
+      image: ['https://onetwothreemoviesfree.onrender.com/wp-content/uploads/2023/05/favicon.ico'],
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/logo.png',
+        url: 'https://onetwothreemoviesfree.onrender.com/logo.png',
         width: 280,
         height: 100
       }
@@ -94,12 +94,12 @@ const moviesDetail = ({ moviesItem }) => {
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      url: 'http://localhost:3000/',
+      url: 'https://onetwothreemoviesfree.onrender.com/',
       potentialAction: {
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: 'http://localhost:3000/search?q={search_term_string}'
+          urlTemplate: 'https://onetwothreemoviesfree.onrender.com/search?q={search_term_string}'
         },
         'query-input': 'required name=search_term_string'
       }
@@ -114,7 +114,7 @@ const moviesDetail = ({ moviesItem }) => {
         '@type': 'ListItem',
         position: 1,
         name: '123 Movies Free.',
-        item: 'http://localhost:3000/'
+        item: 'https://onetwothreemoviesfree.onrender.com/'
       },
       {
         '@type': 'ListItem',
@@ -141,8 +141,8 @@ const moviesDetail = ({ moviesItem }) => {
       },
       {
         '@type': 'WebSite',
-        '@id': 'http://localhost:3000/#website',
-        url: 'http://localhost:3000/',
+        '@id': 'https://onetwothreemoviesfree.onrender.com/#website',
+        url: 'https://onetwothreemoviesfree.onrender.com/',
         name: '123 Movies Free.',
         publisher: {
           '@id': 'https://gravatar.com/drmovies2022/#person'
@@ -157,15 +157,15 @@ const moviesDetail = ({ moviesItem }) => {
         datePublished: moviesItem.datePublished,
         dateModified: moviesItem.dateModified,
         isPartOf: {
-          '@id': 'http://localhost:3000/#website'
+          '@id': 'https://onetwothreemoviesfree.onrender.com/#website'
         },
         inLanguage: 'en-US'
       },
       {
         '@type': 'Person',
-        '@id': 'http://localhost:3000/author/moviesmagazine./',
+        '@id': 'https://onetwothreemoviesfree.onrender.com/author/moviesmagazine./',
         name: 'Dr movies',
-        url: 'http://localhost:3000/author/moviesmagazine./',
+        url: 'https://onetwothreemoviesfree.onrender.com/author/moviesmagazine./',
         image: {
           '@type': 'ImageObject',
           '@id': 'https://gravatar.com/drmovies2022',
@@ -173,7 +173,7 @@ const moviesDetail = ({ moviesItem }) => {
           caption: 'Dr movies',
           inLanguage: 'en-US'
         },
-        sameAs: ['http://localhost:3000/']
+        sameAs: ['https://onetwothreemoviesfree.onrender.com/']
       },
       {
         '@type': 'Article',
@@ -183,7 +183,7 @@ const moviesDetail = ({ moviesItem }) => {
         dateModified: moviesItem.dateModified,
         articleSection: 'Movies movies',
         author: {
-          '@id': 'http://localhost:3000/author/moviesItem/'
+          '@id': 'https://onetwothreemoviesfree.onrender.com/author/moviesItem/'
         },
         publisher: {
           '@id': 'https://gravatar.com/drmovies2022/#person'
@@ -207,7 +207,7 @@ const moviesDetail = ({ moviesItem }) => {
         dateModified: moviesItem.dateModified,
         articleSection: 'Other Software',
         author: {
-          '@id': 'http://localhost:3000/author/moviesmagazine./'
+          '@id': 'https://onetwothreemoviesfree.onrender.com/author/moviesmagazine./'
         },
         publisher: {
           '@id': 'https://gravatar.com/drmovies2022/#person'
@@ -258,7 +258,7 @@ const moviesDetail = ({ moviesItem }) => {
       name: '123 Movies Free.',
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/og_image.jpg'
+        url: 'https://onetwothreemoviesfree.onrender.com/og_image.jpg'
       }
     },
     additionalProperty: {
@@ -312,7 +312,7 @@ const moviesDetail = ({ moviesItem }) => {
       name: '123 Movies Free.???',
       logo: {
         '@type': 'ImageObject',
-        url: 'http://localhost:3000/og_image.jpg'
+        url: 'https://onetwothreemoviesfree.onrender.com/og_image.jpg'
       }
     },
     additionalProperty: {
